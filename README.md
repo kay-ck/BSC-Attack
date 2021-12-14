@@ -12,7 +12,7 @@ C3D and LRCN models are from [3D-ResNets-PyTorch](https://github.com/kenshohara/
 
 ## C3D
 ### C3D-UCF101
-Parameter "pretrain_path" is the path of the pretrain model in "opts/c3d_opt.py/ucf101_parse_opts". 
+Parameter "pretrain_path" is the path of the pretrain model in "opts/c3d_opt.py/ucf101_parse_opts".  
 Download [here](https://drive.google.com/open?id=1DmI6QBrh7xhme0jOL-3nEutJzesHZTqp).
 * Use the path of the parameters file to specify the line 21 in 'opts/c3d_opt.py'.
 ### C3D-HMDB51

@@ -8,8 +8,7 @@ UCF-101 and HMDB-51 datasets are preprocessing by the methods in [3D-ResNets-PyT
 Parameters "root_path", "video_path", "annotation_path" need to be customized in "datasets/c3d_dataset/c3d_opt.py".
 
 # Model
-C3D and LRCN models are from [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and [video_adv](https://github.com/yanhui002/video_adv/tree/master/models/inception) respectively. I3D-Slow model is from [GluonCV]
-(https://cv.gluon.ai/model_zoo/action_recognition.html)
+C3D and LRCN models are from [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and [video_adv](https://github.com/yanhui002/video_adv/tree/master/models/inception) respectively. I3D-Slow model is from [GluonCV](https://cv.gluon.ai/model_zoo/action_recognition.html)
 
 ## C3D
 ### C3D-UCF101

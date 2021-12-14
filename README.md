@@ -1,5 +1,5 @@
 # BSC-attack
-Paper code: “Attacking Video Recognition Models with Bullet-Screen Comments” [paper](https://arxiv.org/pdf/2110.15629.pdf).
+Paper code: “Attacking Video Recognition Models with Bullet-Screen Comments”(https://arxiv.org/pdf/2110.15629.pdf).
 
 # Dataset
 UCF-101 and HMDB-51 datasets are preprocessing by the methods in [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch).  

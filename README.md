@@ -12,17 +12,15 @@ C3D and LRCN models are from [3D-ResNets-PyTorch](https://github.com/kenshohara/
 
 ## C3D
 ### C3D-UCF101
-Parameter "pretrain_path" is the path of the pretrain model in "opts/c3d_opt.py/ucf101_parse_opts".  
+Parameter "pretrain_path" is the path of the pretrain model in "opts/c3d_opt.py/".  
 Download [here](https://drive.google.com/open?id=1DmI6QBrh7xhme0jOL-3nEutJzesHZTqp).
-* Use the path of the parameters file to specify the line 21 in 'opts/c3d_opt.py'.
+
 ### C3D-HMDB51
-Parameter "pretrain_path" is the path of the pretrain model in "opts/c3d_opt.py/hmdb51_parse_opts".  
 Download [here](https://drive.google.com/open?id=1GWP0bAff6H6cE85J6Dz52in6JGv7QZ_u).
-* Use the path of the parameters file to specify the line 59 in 'opts/c3d_opt.py'.
+
 ### C3D-Kinetics400
-Parameter "pretrain_path" is the path of the pretrain model in "opts/c3d_opt.py/kinetics_parse_opts".  
 Download [here](https://drive.google.com/drive/folders/1zvl89AgFAApbH0At-gMuZSeQB_LpNP-M).
-* Use the path of the parameters file to specify the line 97 in 'opts/c3d_opt.py'.
+* Use the path of the parameters file to specify the line 21 in 'opts/c3d_opt.py'.
 
 # Attacks
 Our implementation inludes four black-box patch-based attack: BSC Attack based on Reinforcement Learning (RL), BSC Attack based on Basin Hopping (BH), BSC Attack based on random selection and Patch Attack with white square patch in our [paper](https://arxiv.org/abs/2110.15629). Patch Attack was originally proposed in [paper](https://arxiv.org/abs/2004.05682); BH is the baseline in [paper](https://arxiv.org/abs/2008.01919), which used to generate the adversarial watermark. Their implementation are in [PatchAttack](https://github.com/Chenglin-Yang/PatchAttack) and [Adv-watermark](https://github.com/jiaxiaojunQAQ/Adv-watermark) respectively. Besides, we use an image captioning model proposed in [paper](https://arxiv.org/abs/1502.03044) to generate different BSCs for each video, the code is in [Image Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning).

@@ -21,5 +21,5 @@ Download [here](https://drive.google.com/open?id=1GWP0bAff6H6cE85J6Dz52in6JGv7QZ
 * Use the path of the parameters file to specify the line 59 in 'opts/c3d_opt.py'.
 ### C3D-Kinetics400
 Parameter "pretrain_path" is the path of the pretrain model in "opts/c3d_opt.py/kinetics_parse_opts".  
-Download [here](https://drive.google.com/open?id=1GWP0bAff6H6cE85J6Dz52in6JGv7QZ_u).
+Download [here](https://drive.google.com/drive/folders/1zvl89AgFAApbH0At-gMuZSeQB_LpNP-M).
 * Use the path of the parameters file to specify the line 97 in 'opts/c3d_opt.py'.
